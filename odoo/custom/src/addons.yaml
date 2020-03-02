@@ -1,0 +1,45 @@
+# Compassion
+compassion-modules:
+  - "*"
+compassion-modules:
+  - "*"
+compassion-modules:
+  - "*"
+
+# Compassion modified OCA
+geospatial:
+  - "*"
+
+# OCA
+queue:
+  - "*"
+bank-payment:
+  - "*"
+web:
+  - "*"
+website-cms:
+  - "*"
+connector-telephony:
+  - "*"
+report-print-send:
+  - "*"
+partner-contact:
+  - "*"
+account-financial-tools:
+  - "*"
+account-reconcile:
+  - "*"
+server-ux:
+  - "*"
+server-tools:
+  - "*"
+social:
+  - "*"
+crm:
+  - "*"
+mis-builder:
+  - "*"
+website:
+  - "*"
+reporting-engine:
+  - "*"

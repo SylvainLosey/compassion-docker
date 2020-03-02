@@ -1,3 +1,23 @@
 git+https://github.com/OCA/openupgradelib.git@master
 unicodecsv
 unidecode
+
+# Compassion
+-r https://raw.githubusercontent.com/CompassionCH/compassion-modules/11.0/requirements.txt
+-r https://raw.githubusercontent.com/CompassionCH/compassion-switzerland/11.0/requirements.txt
+-r https://raw.githubusercontent.com/CompassionCH/compassion-accounting/11.0/requirements.txt
+
+
+# OCA Modules
+-r https://raw.githubusercontent.com/OCA/web/11.0/requirements.txt
+-r https://raw.githubusercontent.com/OCA/website-cms/11.0/requirements.txt
+-r https://raw.githubusercontent.com/OCA/connector-telephony/11.0/requirements.txt
+-r https://raw.githubusercontent.com/OCA/partner-contact/11.0/requirements.txt
+-r https://raw.githubusercontent.com/OCA/account-financial-tools/11.0/requirements.txt
+-r https://raw.githubusercontent.com/OCA/server-ux/11.0/requirements.txt
+-r https://raw.githubusercontent.com/OCA/server-tools/11.0/requirements.txt
+-r https://raw.githubusercontent.com/OCA/social/11.0/requirements.txt
+-r https://raw.githubusercontent.com/OCA/reporting-engine/11.0/requirements.txt
+
+# For report-print-send
+zpl2
