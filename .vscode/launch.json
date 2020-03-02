@@ -1,33 +1,25 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "name": "Run in debug mode and attach",
-            "type": "python",
-            "request": "attach",
-            "preLaunchTask": "Start project in debug mode",
-            "postDebugTask": "Stop project",
-            "pathMappings": [
-                {
-                    "localRoot": "${workspaceRoot}/odoo",
-                    "remoteRoot": "/opt/odoo"
-                }
-            ],
-            "port": 6899,
-            "host": "localhost"
-        },
-        {
-            "name": "Attach to running container",
-            "type": "python",
-            "request": "attach",
-            "pathMappings": [
-                {
-                    "localRoot": "${workspaceRoot}/odoo",
-                    "remoteRoot": "/opt/odoo"
-                }
-            ],
-            "port": 6899,
-            "host": "localhost"
-        }
-    ]
+  // More info on this file: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: pytest",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/.venv/bin/pytest",
+      "args": ["tests"],
+      "console": "integratedTerminal",
+      "subProcess": true
+    },
+    {
+      "name": "Python: pytest verbose",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/.venv/bin/pytest",
+      "args": ["-vv", "tests"],
+      "console": "integratedTerminal",
+      "justMyCode": false,
+      "subProcess": true
+    }
+  ]
 }
