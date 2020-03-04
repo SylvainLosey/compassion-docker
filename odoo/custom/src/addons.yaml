@@ -1,9 +1,9 @@
 # Compassion
 compassion-modules:
   - "*"
-compassion-modules:
+compassion-switzerland:
   - "*"
-compassion-modules:
+compassion-accounting:
   - "*"
 
 # Compassion modified OCA

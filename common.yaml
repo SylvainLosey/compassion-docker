@@ -27,7 +27,7 @@ services:
             traefik.port: "8069"
 
     db:
-        image: tecnativa/postgres-autoconf:${DB_VERSION}-alpine
+        image: kerano/postgis-autoconf
         shm_size: 512mb
         environment:
             POSTGRES_DB: *dbname
