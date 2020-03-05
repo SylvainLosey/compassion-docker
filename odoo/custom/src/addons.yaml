@@ -6,11 +6,9 @@ compassion-switzerland:
 compassion-accounting:
   - "*"
 
-# Compassion modified OCA
+# OCA
 geospatial:
   - "*"
-
-# OCA
 queue:
   - "*"
 bank-payment:
@@ -42,4 +40,8 @@ mis-builder:
 website:
   - "*"
 reporting-engine:
+  - "*"
+l10n-switzerland:
+  - "*"
+bank-statement-import:
   - "*"
