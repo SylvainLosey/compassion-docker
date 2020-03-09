@@ -1,0 +1,2 @@
+# Otherwise pycups fails to install
+libcups2-dev

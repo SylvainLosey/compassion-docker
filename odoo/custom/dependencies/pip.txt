@@ -18,6 +18,4 @@ unidecode
 -r https://raw.githubusercontent.com/OCA/server-tools/11.0/requirements.txt
 -r https://raw.githubusercontent.com/OCA/social/11.0/requirements.txt
 -r https://raw.githubusercontent.com/OCA/reporting-engine/11.0/requirements.txt
-
-# For report-print-send
-zpl2
+-r https://raw.githubusercontent.com/OCA/report-print-send/11.0/requirements.txt
