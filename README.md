@@ -5,7 +5,7 @@ Based on [doodba](https://github.com/Tecnativa/doodba).
 ```
 git clone https://github.com/SylvainLosey/compassion-docker.git
 cd compassion-docker
-ln -s devel.yaml docker-compose.yml
+ln -s devel.yaml docker-compose.override.yml
 chmod -R ug+rwX odoo/auto
 export UID GID="$(id -g $USER)" UMASK="$(umask)"
 ```
