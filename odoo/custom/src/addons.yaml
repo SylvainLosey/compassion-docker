@@ -18,7 +18,7 @@ web:
 website-cms:
   - "*"
 connector-telephony:
-  - "*"
+  - "*!(ovh_telephony_connector)"
 report-print-send:
   - "*"
 partner-contact:
